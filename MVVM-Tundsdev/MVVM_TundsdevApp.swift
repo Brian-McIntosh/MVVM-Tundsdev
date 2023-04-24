@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct MVVM_TundsdevApp: App {
+    
+    @StateObject private var vm = CounterViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                CounterDetailView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gearshape")
+                    }
+            }
+            .environmentObject(vm)
         }
     }
 }

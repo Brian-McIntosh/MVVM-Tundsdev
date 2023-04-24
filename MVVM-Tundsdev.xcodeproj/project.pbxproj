@@ -11,6 +11,7 @@
 		25BB2E0129F623D40021EB42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E0029F623D40021EB42 /* ContentView.swift */; };
 		25BB2E0329F623D50021EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2E0229F623D50021EB42 /* Assets.xcassets */; };
 		25BB2E0629F623D50021EB42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2E0529F623D50021EB42 /* Preview Assets.xcassets */; };
+		25BB2E0D29F627370021EB42 /* CounterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E0C29F627370021EB42 /* CounterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		25BB2E0029F623D40021EB42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25BB2E0229F623D50021EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25BB2E0529F623D50021EB42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25BB2E0C29F627370021EB42 /* CounterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				25BB2DFE29F623D40021EB42 /* MVVM_TundsdevApp.swift */,
 				25BB2E0029F623D40021EB42 /* ContentView.swift */,
+				25BB2E0C29F627370021EB42 /* CounterDetailView.swift */,
 				25BB2E0229F623D50021EB42 /* Assets.xcassets */,
 				25BB2E0429F623D50021EB42 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				25BB2E0129F623D40021EB42 /* ContentView.swift in Sources */,
 				25BB2DFF29F623D40021EB42 /* MVVM_TundsdevApp.swift in Sources */,
+				25BB2E0D29F627370021EB42 /* CounterDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
